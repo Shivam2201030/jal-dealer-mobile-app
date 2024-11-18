@@ -7,7 +7,7 @@ class LoginController extends GetxController{
   final loginModel = ModelLogin().obs;
 
   ///Create Login
-  Future<void> getCallRecordings({int page = 1}) async {
+  Future<void> makeLogin() async {
 
     BaseClientGenerator clientGenerator =
     BaseClientGenerator()..body= {}
